@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <div class="avatar-container">
+                    <img src="avatar.jpg" alt="个人头像" class="avatar">
+                </div>
+                <h1>您的姓名</h1>
+                <p class="title">高级开发工程师</p>
+            </div>
+
+            <div class="contact-info">
+                <h2>联系方式</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> your.email@example.com</li>
+                    <li><i class="fas fa-phone"></i> +86 123 4567 8900</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 城市，省份</li>
+                    <li><i class="fab fa-github"></i> github.com/yourname</li>
+                    <li><i class="fab fa-linkedin"></i> linkedin.com/in/yourname</li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h2>核心技能</h2>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">前端开发</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">后端开发</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">数据库</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">DevOps</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%">
+                                <div class="progress-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <nav class="section-nav">
+                <a href="#about" class="nav-item active">简介</a>
+                <a href="#experience" class="nav-item">经历</a>
+                <a href="#education" class="nav-item">教育</a>
+                <a href="#projects" class="nav-item">项目</a>
+            </nav>
+
+            <section id="about" class="about gradient-bg">
+                <h2><i class="fas fa-user"></i> 个人简介</h2>
+                <div class="section-content">
+                    <p>富有创造力和责任心的全栈开发工程师，拥有5年以上的开发经验。专注于创建高性能、可扩展的应用程序。热衷于学习新技术，善于解决复杂问题。</p>
+                </div>
+            </section>
+
+            <section id="experience" class="experience gradient-bg">
+                <h2><i class="fas fa-briefcase"></i> 工作经历</h2>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>高级开发工程师</h3>
+                                <div class="company">科技公司名称</div>
+                                <div class="period">2020年 - 至今</div>
+                                <ul>
+                                    <li>负责核心业务系统的架构设计和开发</li>
+                                    <li>优化系统性能，提升用户体验</li>
+                                    <li>指导初级开发人员，组织技术分享会</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>开发工程师</h3>
+                                <div class="company">创业公司名称</div>
+                                <div class="period">2018年 - 2020年</div>
+                                <ul>
+                                    <li>参与产品从0到1的完整开发流程</li>
+                                    <li>实现关键业务功能模块</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education gradient-bg">
+                <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+                <div class="section-content">
+                    <div class="edu-item">
+                        <h3>计算机科学与技术</h3>
+                        <div class="school">知名大学名称</div>
+                        <div class="period">2014年 - 2018年</div>
+                        <div class="degree">学士学位</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects gradient-bg">
+                <h2><i class="fas fa-code"></i> 项目经历</h2>
+                <div class="section-content">
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <h3>项目名称 1</h3>
+                            <p>项目描述，技术栈和主要成就</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h3>项目名称 2</h3>
+                            <p>项目描述，技术栈和主要成就</p>
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>Python</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 您的名字. All rights reserved.</p>
+    </footer>
+
+    <script>
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 80 },
+                color: { value: '#3498db' },
+                shape: { type: 'circle' },
+                opacity: { value: 0.5 },
+                size: { value: 3 },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#3498db',
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2
+                }
+            }
+        });
+
+        const sections = document.querySelectorAll('section');
+        const navItems = document.querySelectorAll('.nav-item');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href').slice(1) === current) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
